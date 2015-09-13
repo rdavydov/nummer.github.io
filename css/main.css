@@ -14,9 +14,9 @@ nav {
 }
 
 .logomainup {
-    font-size: 35px;
+    margin-top: 80px;
+    margin-bottom: 30px;
     position: absolute;
-    text-align: center;
     left: 0;
     right: 0;
     cursor: default;
