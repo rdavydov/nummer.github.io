@@ -1,6 +1,81 @@
 body,
 html {
     background-image: url(/img/bg.jpg);
-    background-size: 100%;
     background-attachment: fixed;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-width: 405px;
+}
+
+nav {
+    background-color: rgba(95, 205, 100, 0.4);
+    text-shadow: 0 0 2px black;
+}
+
+.logomainup {
+    font-size: 35px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    cursor: default;
+}
+
+.costumbtn
+{
+        background-color: rgba(10,200,50,0.5);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.smalltext 
+{
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(/font/material-design-icons/1.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    word-wrap: normal;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    cursor: default;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.noselect {
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.containermain {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: lawngreen;
 }
