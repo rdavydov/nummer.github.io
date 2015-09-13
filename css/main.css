@@ -4,13 +4,6 @@ html {
     background-attachment: fixed;
     background-color: black;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    min-width: 405px;
-}
-
-nav {
-    background-color: rgba(95, 205, 100, 0.4);
-    text-shadow: 0 0 2px black;
 }
 
 .logomainup {
@@ -29,6 +22,8 @@ nav {
     padding-right: 5px;
     margin-right: 5px;
     margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .smalltext 
@@ -76,6 +71,7 @@ nav {
     margin-top: 30px;
     padding: 20px;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.8);
+    border: 4px solid rgba(40,40,40,0.1);
+    background-color: rgba(0, 0, 0, 0.95);
     color: lawngreen;
 }
