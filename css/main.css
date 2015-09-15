@@ -38,6 +38,24 @@ html {
   src: local('Material Icons'), local('MaterialIcons-Regular'), url(/font/material-design-icons/1.woff2) format('woff2');
 }
 
+.icondownloadback
+{
+    background-image: url(/img/icons/file_download.svg);
+    height: 22px;
+    width: 22px;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.icondownloadcloud
+{
+    background-image: url(/img/icons/download_cloud.svg);
+    height: 22px;
+    width: 22px;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
