@@ -2174,9 +2174,9 @@ ul.staggered-list li {
     text-align: center; } }
 
 footer.page-footer {
-  margin-top: 20px;
   padding-top: 20px;
-  background-color: #ee6e73; }
+  background-color: rgba(2, 10, 50, 0.96);
+  margin-top: 25px;}
   footer.page-footer .footer-copyright {
     overflow: hidden;
     height: 50px;
@@ -6158,7 +6158,7 @@ a.waves-effect .waves-ripple {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #292929;
+  background-color: darkblue;
   z-index: 999;
   will-change: opacity; }
 
