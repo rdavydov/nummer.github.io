@@ -6158,7 +6158,7 @@ a.waves-effect .waves-ripple {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: darkblue;
+  background-color: rgba(10,50,200,0.5);
   z-index: 999;
   will-change: opacity; }
 
