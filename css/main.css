@@ -1,7 +1,44 @@
-body{
+body {
     background-image: url(/img/bg.jpg);
-    background-color: rgba(1,0,20,1);
+    background-color: rgba(1, 0, 20, 1);
     background-repeat: repeat-x;
+}
+
+.snowborders {
+    opacity: 0;
+    animation-name: snowbordersanim;
+    animation-duration: 40s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: snowbordersanim;
+    -webkit-animation-duration: 40s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-fill-mode: forwards;
+}
+
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes snowbordersanim {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes snowbordersanim {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .logomainup {
@@ -13,16 +50,14 @@ body{
     cursor: default;
 }
 
-.logotopDWS
-{
+.logotopDWS {
     display: block;
     margin-left: auto;
     max-width: 790px;
     margin-right: auto;
 }
 
-.costumbtn
-{
+.costumbtn {
     padding-left: 5px;
     padding-right: 5px;
     margin-right: 5px;
@@ -31,47 +66,42 @@ body{
     margin-top: 5px;
 }
 
-.backgreen
-{
+.backgreen {
     background-color: darkgreen;
 }
-.backgreen:hover
-{
+
+.backgreen:hover {
     background-color: green;
 }
 
-.backslateblue
-{
-   background-color: darkslateblue; 
-}
-.backslateblue:hover
-{
-   background-color: slateblue; 
+.backslateblue {
+    background-color: darkslateblue;
 }
 
-.backslategray
-{
+.backslateblue:hover {
+    background-color: slateblue;
+}
+
+.backslategray {
     background-color: darkslategray;
 }
-.backslategray:hover
-{
+
+.backslategray:hover {
     background-color: slategray;
 }
 
-.smalltext 
-{
+.smalltext {
     font-size: 14px;
 }
 
 @font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Material Icons'), local('MaterialIcons-Regular'), url(/font/material-design-icons/1.woff2) format('woff2');
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(/font/material-design-icons/1.woff2) format('woff2');
 }
 
-.icondownloadback
-{
+.icondownloadback {
     background-image: url(/img/icons/file_download.svg);
     height: 22px;
     width: 22px;
@@ -79,8 +109,7 @@ body{
     background-position: center;
 }
 
-.icondownloadcloud
-{
+.icondownloadcloud {
     background-image: url(/img/icons/download_cloud.svg);
     height: 22px;
     width: 22px;
@@ -89,19 +118,18 @@ body{
 }
 
 .material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: inline-block;
-  word-wrap: normal;
-  -webkit-font-feature-settings: 'liga';
-  -webkit-font-smoothing: antialiased;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    word-wrap: normal;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
 }
-
 
 .noselect {
     -moz-user-select: -moz-none;
@@ -116,7 +144,7 @@ body{
     margin-top: 30px;
     padding: 20px;
     border-radius: 5px;
-    border: 4px solid rgba(40,40,40,0.1);
+    border: 4px solid rgba(40, 40, 40, 0.1);
     background-color: rgba(2, 10, 50, 0.96);
-    color: rgba(200,200,200,1);
+    color: rgba(200, 200, 200, 1);
 }
